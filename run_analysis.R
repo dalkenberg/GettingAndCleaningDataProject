@@ -68,7 +68,11 @@ mean_std_data_avg <- aggregate(mean_std_data_copy[, 1:66], list(mean_std_data_co
 names(mean_std_data_avg)[names(mean_std_data_avg)=="Group.1"] <- "Activity"
 names(mean_std_data_avg)[names(mean_std_data_avg)=="Group.2"] <- "Subject"
 
+activity <- read.table("activity_labels.txt", sep=" ",  header = FALSE)
 
+mean_std_data_avg <- merge(mean_std_data_avg, activity, by.x = "Activity", by.y = "V1")
+names(mean_std_data_avg)[names(mean_std_data_avg)=="V2"] <- "ActivityType"
 
+write.table(mean_std_data_avg, "tidydata_averages.txt", row.name = FALSE)
 
 
