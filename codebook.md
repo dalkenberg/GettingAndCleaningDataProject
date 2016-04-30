@@ -28,75 +28,75 @@ The two tidy data sets are extracted from the original data sourve via the run_a
 Data columns
 ---------
 Data columns found in mean_std_data:
-tBodyAccelerationMean-X, tBodyAccelerationMean-Y, tBodyAccelerationMean-Z
-tGravityAccelerationMean-X,tGravityAccelerationMean-Y,tGravityAccelerationMean-Z
-tBodyAccelerationJerkMean-X,tBodyAccelerationJerkMean-Y,tBodyAccelerationJerkMean-Z
-tBodyGyroMean-X,tBodyGyroMean-Y,tBodyGyroMean-Z
-tBodyGyroJerkMean-X,tBodyGyroJerkMean-Y,tBodyGyroJerkMean-Z
-tBodyAccelerationMagMean
-tGravityAccelerationMagMean
-tBodyAccelerationJerkMagMean
-tBodyGyroMagMean
-tBodyGyroJerkMagMean
-fBodyAccelerationMean-X,fBodyAccelerationMean-Y,fBodyAccelerationMean-Z
-fBodyAccelerationJerkMean-X,fBodyAccelerationJerkMean-Y,fBodyAccelerationJerkMean-Z
-fBodyGyroMean-X,fBodyGyroMean-Y,fBodyGyroMean-Z
-fBodyAccelerationMagMean
-fBodyBodyAccelerationJerkMagMean
-fBodyBodyGyroMagMean
-fBodyBodyGyroJerkMagMean
-tBodyAccelerationStdDev-X,tBodyAccelerationStdDev-Y,tBodyAccelerationStdDev-Z
-tGravityAccelerationStdDev-X,tGravityAccelerationStdDev-Y,tGravityAccelerationStdDev-Z
-tBodyAccelerationJerkStdDev-X,tBodyAccelerationJerkStdDev-Y,tBodyAccelerationJerkStdDev-Z
-tBodyGyroStdDev-X,tBodyGyroStdDev-Y,tBodyGyroStdDev-Z
-tBodyGyroJerkStdDev-X,tBodyGyroJerkStdDev-Y,tBodyGyroJerkStdDev-Z
-tBodyAccelerationMagStdDev
-tGravityAccelerationMagStdDev
-tBodyAccelerationJerkMagStdDev
-tBodyGyroMagStdDev
-tBodyGyroJerkMagStdDev
-fBodyAccelerationStdDev-X,fBodyAccelerationStdDev-Y,fBodyAccelerationStdDev-Z
-fBodyAccelerationJerkStdDev-X,fBodyAccelerationJerkStdDev-Y,fBodyAccelerationJerkStdDev-Z
-fBodyGyroStdDev-X,fBodyGyroStdDev-Y,fBodyGyroStdDev-Z
-fBodyAccelerationMagStdDev
-fBodyBodyAccelerationJerkMagStdDev
-fBodyBodyGyroMagStdDev
-fBodyBodyGyroJerkMagStdDev 
+* tBodyAccelerationMean-X, tBodyAccelerationMean-Y, tBodyAccelerationMean-Z
+* tGravityAccelerationMean-X,tGravityAccelerationMean-Y,tGravityAccelerationMean-Z
+* tBodyAccelerationJerkMean-X,tBodyAccelerationJerkMean-Y,tBodyAccelerationJerkMean-Z
+* tBodyGyroMean-X,tBodyGyroMean-Y,tBodyGyroMean-Z
+* tBodyGyroJerkMean-X,tBodyGyroJerkMean-Y,tBodyGyroJerkMean-Z
+* tBodyAccelerationMagMean
+* tGravityAccelerationMagMean
+* tBodyAccelerationJerkMagMean
+* tBodyGyroMagMean
+* tBodyGyroJerkMagMean
+* fBodyAccelerationMean-X,fBodyAccelerationMean-Y,fBodyAccelerationMean-Z
+* fBodyAccelerationJerkMean-X,fBodyAccelerationJerkMean-Y,fBodyAccelerationJerkMean-Z
+* fBodyGyroMean-X,fBodyGyroMean-Y,fBodyGyroMean-Z
+* fBodyAccelerationMagMean
+* fBodyBodyAccelerationJerkMagMean
+* fBodyBodyGyroMagMean
+* fBodyBodyGyroJerkMagMean
+* tBodyAccelerationStdDev-X,tBodyAccelerationStdDev-Y,tBodyAccelerationStdDev-Z
+* tGravityAccelerationStdDev-X,tGravityAccelerationStdDev-Y,tGravityAccelerationStdDev-Z
+* tBodyAccelerationJerkStdDev-X,tBodyAccelerationJerkStdDev-Y,tBodyAccelerationJerkStdDev-Z
+* tBodyGyroStdDev-X,tBodyGyroStdDev-Y,tBodyGyroStdDev-Z
+* tBodyGyroJerkStdDev-X,tBodyGyroJerkStdDev-Y,tBodyGyroJerkStdDev-Z
+* tBodyAccelerationMagStdDev
+* tGravityAccelerationMagStdDev
+* tBodyAccelerationJerkMagStdDev
+* tBodyGyroMagStdDev
+* tBodyGyroJerkMagStdDev
+* fBodyAccelerationStdDev-X,fBodyAccelerationStdDev-Y,fBodyAccelerationStdDev-Z
+* fBodyAccelerationJerkStdDev-X,fBodyAccelerationJerkStdDev-Y,fBodyAccelerationJerkStdDev-Z
+* fBodyGyroStdDev-X,fBodyGyroStdDev-Y,fBodyGyroStdDev-Z
+* fBodyAccelerationMagStdDev
+* fBodyBodyAccelerationJerkMagStdDev
+* fBodyBodyGyroMagStdDev
+* fBodyBodyGyroJerkMagStdDev 
 
 Data columns found in mean_std_data:
-Activity
-Subject
-tBodyAccelerationMean-X-Average,tBodyAccelerationMean-Y-Average,tBodyAccelerationMean-Z-Average
-tGravityAccelerationMean-X-Average,tGravityAccelerationMean-Y-Average,tGravityAccelerationMean-Z-Average
-tBodyAccelerationJerkMean-X-Average,tBodyAccelerationJerkMean-Y-Average,tBodyAccelerationJerkMean-Z-Average
-tBodyGyroMean-X-Average,tBodyGyroMean-Y-Average,tBodyGyroMean-Z-Average
-tBodyGyroJerkMean-X-Average,tBodyGyroJerkMean-Y-Average,tBodyGyroJerkMean-Z-Average
-tBodyAccelerationMagMean-Average
-tGravityAccelerationMagMean-Average
-tBodyAccelerationJerkMagMean-Average
-tBodyGyroMagMean-Average
-tBodyGyroJerkMagMean-Average
-fBodyAccelerationMean-X-Average,fBodyAccelerationMean-Y-Average,fBodyAccelerationMean-Z-Average
-fBodyAccelerationJerkMean-X-Average,fBodyAccelerationJerkMean-Y-Average,fBodyAccelerationJerkMean-Z-Average
-fBodyGyroMean-X-Average,fBodyGyroMean-Y-Average,fBodyGyroMean-Z-Average
-fBodyAccelerationMagMean-Average
-fBodyBodyAccelerationJerkMagMean-Average
-fBodyBodyGyroMagMean-Average
-fBodyBodyGyroJerkMagMean-Average
-tBodyAccelerationStdDev-X-Average,tBodyAccelerationStdDev-Y-Average,tBodyAccelerationStdDev-Z-Average
-tGravityAccelerationStdDev-X-Average,tGravityAccelerationStdDev-Y-Average,tGravityAccelerationStdDev-Z-Average
-tBodyAccelerationJerkStdDev-X-Average,tBodyAccelerationJerkStdDev-Y-Average,tBodyAccelerationJerkStdDev-Z-Average
-tBodyGyroStdDev-X-Average,tBodyGyroStdDev-Y-Average,tBodyGyroStdDev-Z-Average
-tBodyGyroJerkStdDev-X-Average,tBodyGyroJerkStdDev-Y-Average,tBodyGyroJerkStdDev-Z-Average
-tBodyAccelerationMagStdDev-Average
-tGravityAccelerationMagStdDev-Average
-tBodyAccelerationJerkMagStdDev-Average
-tBodyGyroMagStdDev-Average
-tBodyGyroJerkMagStdDev-Average
-fBodyAccelerationStdDev-X-Average,fBodyAccelerationStdDev-Y-Average,fBodyAccelerationStdDev-Z-Average
-fBodyAccelerationJerkStdDev-X-Average,fBodyAccelerationJerkStdDev-Y-Average,fBodyAccelerationJerkStdDev-Z-Average
-fBodyGyroStdDev-X-Average,fBodyGyroStdDev-Y-Average,fBodyGyroStdDev-Z-Average
-fBodyAccelerationMagStdDev-Average
-fBodyBodyAccelerationJerkMagStdDev-Average
-fBodyBodyGyroMagStdDev-Average
-fBodyBodyGyroJerkMagStdDev-Average 
+* Activity
+* Subject
+* tBodyAccelerationMean-X-Average,tBodyAccelerationMean-Y-Average,tBodyAccelerationMean-Z-Average
+* tGravityAccelerationMean-X-Average,tGravityAccelerationMean-Y-Average,tGravityAccelerationMean-Z-Average
+* tBodyAccelerationJerkMean-X-Average,tBodyAccelerationJerkMean-Y-Average,tBodyAccelerationJerkMean-Z-Average
+* tBodyGyroMean-X-Average,tBodyGyroMean-Y-Average,tBodyGyroMean-Z-Average
+* tBodyGyroJerkMean-X-Average,tBodyGyroJerkMean-Y-Average,tBodyGyroJerkMean-Z-Average
+* tBodyAccelerationMagMean-Average
+* tGravityAccelerationMagMean-Average
+* tBodyAccelerationJerkMagMean-Average
+* tBodyGyroMagMean-Average
+* tBodyGyroJerkMagMean-Average
+* fBodyAccelerationMean-X-Average,fBodyAccelerationMean-Y-Average,fBodyAccelerationMean-Z-Average
+* fBodyAccelerationJerkMean-X-Average,fBodyAccelerationJerkMean-Y-Average,fBodyAccelerationJerkMean-Z-Average
+* fBodyGyroMean-X-Average,fBodyGyroMean-Y-Average,fBodyGyroMean-Z-Average
+* fBodyAccelerationMagMean-Average
+* fBodyBodyAccelerationJerkMagMean-Average
+* fBodyBodyGyroMagMean-Average
+* fBodyBodyGyroJerkMagMean-Average
+* tBodyAccelerationStdDev-X-Average,tBodyAccelerationStdDev-Y-Average,tBodyAccelerationStdDev-Z-Average
+* tGravityAccelerationStdDev-X-Average,tGravityAccelerationStdDev-Y-Average,tGravityAccelerationStdDev-Z-Average
+* tBodyAccelerationJerkStdDev-X-Average,tBodyAccelerationJerkStdDev-Y-Average,tBodyAccelerationJerkStdDev-Z-Average
+* tBodyGyroStdDev-X-Average,tBodyGyroStdDev-Y-Average,tBodyGyroStdDev-Z-Average
+* tBodyGyroJerkStdDev-X-Average,tBodyGyroJerkStdDev-Y-Average,tBodyGyroJerkStdDev-Z-Average
+* tBodyAccelerationMagStdDev-Average
+* tGravityAccelerationMagStdDev-Average
+* tBodyAccelerationJerkMagStdDev-Average
+* tBodyGyroMagStdDev-Average
+* tBodyGyroJerkMagStdDev-Average
+* fBodyAccelerationStdDev-X-Average,fBodyAccelerationStdDev-Y-Average,fBodyAccelerationStdDev-Z-Average
+* fBodyAccelerationJerkStdDev-X-Average,fBodyAccelerationJerkStdDev-Y-Average,fBodyAccelerationJerkStdDev-Z-Average
+* fBodyGyroStdDev-X-Average,fBodyGyroStdDev-Y-Average,fBodyGyroStdDev-Z-Average
+* fBodyAccelerationMagStdDev-Average
+* fBodyBodyAccelerationJerkMagStdDev-Average
+* fBodyBodyGyroMagStdDev-Average
+* fBodyBodyGyroJerkMagStdDev-Average 
